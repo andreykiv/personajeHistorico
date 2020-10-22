@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/fondo.jpg");
+    margin: 0%;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    opacity: 0.8;
+    height: 84vh;
+}
+main div{
+    
+    color: #000000;
+}
+
+header{
+    height: 8vh;
+    background-color: #ffffff;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-end;
+}   
+
+footer{
+    height: 8vh;
+    background-color: #ffffff;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.btn{
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px 45px;
+}
+
+.btn:hover {
+    color: blue;
+}
+
+.globalDiv {
+    padding: 0 2% 0 2%;
+    display: flex;
+}
+  
+.firstDIV {
+    width: 20%;
+}
+
+.secondDIV {
+    padding-top: 1%;
+    width: 80%;
+}
+
+hr {
+    margin-top: 5%;
+    width:80%;
+    
+}
+
+main p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
