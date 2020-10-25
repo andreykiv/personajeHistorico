@@ -108,3 +108,9 @@ div.item img{
   vertical-align: top;
   
 }
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
