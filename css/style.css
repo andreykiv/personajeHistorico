@@ -4,7 +4,6 @@ body {
     font-family: 'Inconsolata', monospace;
     display: flex;
     flex-direction: column;
-    
 }
 
 main{
@@ -57,10 +56,12 @@ footer{
   
 .firstDIV {
     width: 20%;
+    padding-top: 2%;
 }
 
 .secondDIV {
-    padding-top: 1%;
+    padding-left: 2%;
+    padding-top: 4%;
     width: 80%;
 }
 
@@ -76,4 +77,30 @@ main p {
 
 a {
     text-decoration: none;
+}
+
+h1{
+    padding-bottom: 4%;
+}
+
+.obrasDIV {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.item {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    text-align: center;
+}
+
+.obras {
+    width: 100%;
+    height: auto;
 }
