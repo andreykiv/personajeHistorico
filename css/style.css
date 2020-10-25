@@ -84,23 +84,27 @@ h1{
 }
 
 .obrasDIV {
+    padding-top: 5%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   
 }
 
 .item {
-    position: relative;
     float: left;
     overflow: hidden;
     margin: 10px 1%;
     min-width: 220px;
     max-width: 310px;
     width: 100%;
-    text-align: center;
+    box-sizing: border-box;
 }
 
-.obras {
-    width: 100%;
-    height: auto;
+div.item img{
+  max-width: 100%;
+  width: 310px;
+  height: 210px;
+  vertical-align: top;
+  
 }
